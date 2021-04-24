@@ -23,11 +23,11 @@ This would convert a record like: `{"id":0, "name":"anExampleFieldValue"}` to `{
 ### How to use this
 
 - Run `mvn clean package` in the repo's root directory
-- Copy the created jar from the /target directory to some directory (say `kafka-connect-camel-to-snake` in your Connect worker's plugin path)
+- Copy the created jar from the /target directory to some directory, say `kafka-connect-camel-to-snake`, in your Connect worker's plugin path
 - Create a connector using this transform in its properties!
 
 ----------
 ### To-Do:
 
 - Add unit tests
-- Allow converting field names themselves. Example: convert `{"id":0, "fieldNameExample":"value"}` to `{"id":0, "field_name_example":"value"}`. This will require adding an additional configuration
+- Allow converting field names themselves. Example: convert `{"id":0, "fieldNameExample":"value"}` to `{"id":0, "field_name_example":"value"}`. This will require adding an additional property
