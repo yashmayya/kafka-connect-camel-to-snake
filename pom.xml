@@ -12,7 +12,6 @@
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <java.version>1.8</java.version>
     <kafkaconnect.version>2.7.0</kafkaconnect.version>
-    <confluent.version>6.1.1</confluent.version>
   </properties>
 
   <dependencies>
@@ -26,11 +25,6 @@
       <groupId>org.apache.kafka</groupId>
       <artifactId>connect-transforms</artifactId>
       <version>${kafkaconnect.version}</version>
-    </dependency>
-    <dependency>
-      <groupId>com.google.guava</groupId>
-      <artifactId>guava</artifactId>
-      <version>30.1-jre</version>
     </dependency>
   </dependencies>
 
