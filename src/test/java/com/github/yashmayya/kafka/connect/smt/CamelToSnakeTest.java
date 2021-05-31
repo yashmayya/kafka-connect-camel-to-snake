@@ -14,7 +14,7 @@ import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
 
-public class CameToSnakeTest {
+public class CamelToSnakeTest {
     private final CamelToSnake<SourceRecord> transform = new Value<>();
 
     @Before
